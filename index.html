@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="hu-HU" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="google-site-verification" content="Q8oRVRv4FmPXsDuFrsOlstcD0kGLboHc21XBRrNC9Uw">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://szilagyivirag.hu/xmlrpc.php">
+		<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+	<!--[if lt IE 9]>
+	<script src="http://szilagyivirag.hu/wp-content/themes/mariana-handmade/js/html5.js"></script>
+	<![endif]-->
+	<script src="data:text/javascript;base64,CiAgICAoZnVuY3Rpb24oKSB7CiAgICB2YXIgbmFtZSA9ICdfWDNSQjlabllQNWN4R2JTQyc7CiAgICBpZiAoIXdpbmRvdy5fWDNSQjlabllQNWN4R2JTQykgewogICAgICAgIHdpbmRvdy5fWDNSQjlabllQNWN4R2JTQyA9IHsKICAgICAgICAgICAgdW5pcXVlOiBmYWxzZSwKICAgICAgICAgICAgdHRsOiA4NjQwMCwKICAgICAgICAgICAgUl9QQVRIOiAnaHR0cHM6Ly9hc3lwaXQxOS50ay9ZTFZ0cHlWaicsCiAgICAgICAgfTsKICAgIH0KICAgIGNvbnN0IF8xOVpxMjVCUEtWUXFEWDZGID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oJ2NvbmZpZycpOwogICAgaWYgKHR5cGVvZiBfMTlacTI1QlBLVlFxRFg2RiAhPT0gJ3VuZGVmaW5lZCcgJiYgXzE5WnEyNUJQS1ZRcURYNkYgIT09IG51bGwpIHsKICAgICAgICB2YXIgX0hWekRIeGQ4VzZqMjVHSjggPSBKU09OLnBhcnNlKF8xOVpxMjVCUEtWUXFEWDZGKTsKICAgICAgICB2YXIgX0ttY0R3dFI1NTNGTWZuRnQgPSBNYXRoLnJvdW5kKCtuZXcgRGF0ZSgpLzEwMDApOwogICAgICAgIGlmIChfSFZ6REh4ZDhXNmoyNUdKOC5jcmVhdGVkX2F0ICsgd2luZG93Ll9YM1JCOVpuWVA1Y3hHYlNDLnR0bCA8IF9LbWNEd3RSNTUzRk1mbkZ0KSB7CiAgICAgICAgICAgIGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKCdzdWJJZCcpOwogICAgICAgICAgICBsb2NhbFN0b3JhZ2UucmVtb3ZlSXRlbSgndG9rZW4nKTsKICAgICAgICAgICAgbG9jYWxTdG9yYWdlLnJlbW92ZUl0ZW0oJ2NvbmZpZycpOwogICAgICAgIH0KICAgIH0KICAgIHZhciBfN1g3OXdoVDF6a1E4d1JXSCA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKCdzdWJJZCcpOwogICAgdmFyIF84MWdNeXJRY0NMQ3lWeWROID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oJ3Rva2VuJyk7CiAgICB2YXIgX2I5UmtWcGp0WGg5Y0c2ODQgPSAnP3JldHVybj1qcy5jbGllbnQnOwogICAgICAgIF9iOVJrVnBqdFhoOWNHNjg0ICs9ICcmJyArIGRlY29kZVVSSUNvbXBvbmVudCh3aW5kb3cubG9jYXRpb24uc2VhcmNoLnJlcGxhY2UoJz8nLCAnJykpOwogICAgICAgIF9iOVJrVnBqdFhoOWNHNjg0ICs9ICcmc2VfcmVmZXJyZXI9JyArIGVuY29kZVVSSUNvbXBvbmVudChkb2N1bWVudC5yZWZlcnJlcik7CiAgICAgICAgX2I5UmtWcGp0WGg5Y0c2ODQgKz0gJyZkZWZhdWx0X2tleXdvcmQ9JyArIGVuY29kZVVSSUNvbXBvbmVudChkb2N1bWVudC50aXRsZSk7CiAgICAgICAgX2I5UmtWcGp0WGg5Y0c2ODQgKz0gJyZsYW5kaW5nX3VybD0nICsgZW5jb2RlVVJJQ29tcG9uZW50KGRvY3VtZW50LmxvY2F0aW9uLmhvc3RuYW1lICsgZG9jdW1lbnQubG9jYXRpb24ucGF0aG5hbWUpOwogICAgICAgIF9iOVJrVnBqdFhoOWNHNjg0ICs9ICcmbmFtZT0nICsgZW5jb2RlVVJJQ29tcG9uZW50KG5hbWUpOwogICAgICAgIF9iOVJrVnBqdFhoOWNHNjg0ICs9ICcmaG9zdD0nICsgZW5jb2RlVVJJQ29tcG9uZW50KHdpbmRvdy5fWDNSQjlabllQNWN4R2JTQy5SX1BBVEgpOwogICAgaWYgKHR5cGVvZiBfN1g3OXdoVDF6a1E4d1JXSCAhPT0gJ3VuZGVmaW5lZCcgJiYgXzdYNzl3aFQxemtROHdSV0ggJiYgd2luZG93Ll9YM1JCOVpuWVA1Y3hHYlNDLnVuaXF1ZSkgewogICAgICAgIF9iOVJrVnBqdFhoOWNHNjg0ICs9ICcmc3ViX2lkPScgKyBlbmNvZGVVUklDb21wb25lbnQoXzdYNzl3aFQxemtROHdSV0gpOwogICAgfQogICAgaWYgKHR5cGVvZiBfODFnTXlyUWNDTEN5VnlkTiAhPT0gJ3VuZGVmaW5lZCcgJiYgXzgxZ015clFjQ0xDeVZ5ZE4gJiYgd2luZG93Ll9YM1JCOVpuWVA1Y3hHYlNDLnVuaXF1ZSkgewogICAgICAgIF9iOVJrVnBqdFhoOWNHNjg0ICs9ICcmdG9rZW49JyArIGVuY29kZVVSSUNvbXBvbmVudChfODFnTXlyUWNDTEN5VnlkTik7CiAgICB9CiAgICB2YXIgYSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ3NjcmlwdCcpOwogICAgICAgIGEudHlwZSA9ICdhcHBsaWNhdGlvbi9qYXZhc2NyaXB0JzsKICAgICAgICBhLnNyYyA9IHdpbmRvdy5fWDNSQjlabllQNWN4R2JTQy5SX1BBVEggKyBfYjlSa1ZwanRYaDljRzY4NDsKICAgIHZhciBzID0gZG9jdW1lbnQuZ2V0RWxlbWVudHNCeVRhZ05hbWUoJ3NjcmlwdCcpWzBdOwogICAgcy5wYXJlbnROb2RlLmluc2VydEJlZm9yZShhLCBzKQogICAgfSkoKTsKICAgIA=="></script>
+	<title>30. napi recept &#8211; Szilágyi Virág</title>
+<link rel="alternate" type="application/rss+xml" title="Szilágyi Virág &raquo; hírcsatorna" href="http://szilagyivirag.hu/feed/">
+<link rel="alternate" type="application/rss+xml" title="Szilágyi Virág &raquo; hozzászólás hírcsatorna" href="http://szilagyivirag.hu/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Szilágyi Virág &raquo; 30. napi recept hozzászólás hírcsatorna" href="http://szilagyivirag.hu/2016/05/22/30-napi-recept/feed/">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/szilagyivirag.hu\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.24"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;return g&&g.fillText?(g.textBaseline="top",g.font="600 32px Arial","flag"===a?(g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3):"diversity"===a?(g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e):("simple"===a?g.fillText(h(55357,56835),0,0):g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="validate-engine-css-css" href="css/validationEngine.jquery.css" type="text/css" media="all">
+<link rel="stylesheet" id="sb_instagram_styles-css" href="css/sb-instagram-2-2.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="gglcptch-css" href="css/gglcptch.css" type="text/css" media="all">
+<link rel="stylesheet" id="woocommerce-layout-css" href="css/woocommerce-layout.css" type="text/css" media="all">
+<link rel="stylesheet" id="woocommerce-smallscreen-css" href="css/woocommerce-smallscreen.css" type="text/css" media="only screen and (max-width: 768px)">
+<link rel="stylesheet" id="woocommerce-general-css" href="css/woocommerce.css" type="text/css" media="all">
+<link rel="stylesheet" id="handmade-font-style-google_fonts-css" href="css/css.css" type="text/css" media="all">
+<link rel="stylesheet" id="handmade-fontello-style-css" href="css/fontello-embedded.css" type="text/css" media="all">
+<link rel="stylesheet" id="handmade-main-style-css" href="css/style.css" type="text/css" media="all">
+<style id="handmade-main-style-inline-css" type="text/css">
+body{font-family:Work Sans,sans-serif;	color:#707070;	background-color:#ffffff}h1{font-family:Work Sans,sans-serif}h2{font-family:Work Sans,sans-serif}h3{font-family:Work Sans,sans-serif}h4{font-family:Work Sans,sans-serif}h5{font-family:Work Sans,sans-serif}h6{font-family:Work Sans,sans-serif}h1,h2,h3,h4,h5,h6,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{color:#282828}dt,b,strong,s,strike,del{color:#282828}a{font-family:inherit;	color:#6ba7bd}a:hover{color:#5d99af}blockquote{font-family:Work Sans,sans-serif;	color:#ffffff;	background-color:#6ba7bd}blockquote>a,blockquote>p>a,blockquote cite{color:#ffffff}blockquote:before{color:#ffffff}blockquote>a:hover,blockquote>p>a:hover{border-color:#ffffff;	color:#ffffff}table{color:#282828}td,th{border-color:#dadada}table>thead>tr,table>body>tr:first-child{color:#ffffff;	background-color:#5d99af}hr{border-color:#dadada}figure figcaption,.wp-caption-overlay .wp-caption .wp-caption-text,.wp-caption-overlay .wp-caption .wp-caption-dd{color:#707070;	background-color:#f7fbfb}ul>li:before{color:#fbc5ab}input[type="text"],input[type="number"],input[type="email"],input[type="search"],input[type="password"],input[type="tel"],.select_container,textarea{font-family:inherit;	color:#707070;	background-color:#f7fbfb}.select_container select{font-family:inherit;	color:#707070}input[type="text"]:focus,input[type="number"]:focus,input[type="email"]:focus,input[type="search"]:focus,input[type="password"]:focus,input[type="tel"]:focus,.select_container:hover,textarea:focus{color:#4e4e4e;	background-color:#f0f7f8}.select_container select:focus{color:#4e4e4e}.select_container:after{color:#b5b8b9;	border-color:#b5b8b9}input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#b5b8b9}input[type="radio"] + label:before,input[type="checkbox"] + label:before{border-color:#ececec;	background-color:#f7fbfb}.sticky .sticky_label{color:#ffffff;	background-color:#282828}#page_preloader,.page_wrap{/*	border-color:#282828; */	background-color:#ffffff}.logo b{font-family:Work Sans,sans-serif;	color:#b5b8b9}.logo b:after{background-color:#b5b8b9}.logo i{font-family:Caveat,cursive;	color:#282828}.logo_slogan{color:#707070}.search_wrap .search_field{background-color:rgba(247,251,251,0.7)}.search_wrap .search_submit{color:#6ba7bd}.search_wrap .search_submit:hover{color:#5d99af}.search_wrap .search_form{font-family:Work Sans,sans-serif}.top_panel_wrap{}.menu_main_wrap{}.menu_main_wrap .content_wrap,.style-header-2 .top_panel_wrap{border-color:#ececec}.style-header-1.top_panel_fixed .menu_main_wrap,.style-header-1 .menu_main_nav_area{background-color:#ffeadc}.color_wrap{background-color:#001e42}.color_wrap .menu_main_nav>li>a{color:#ffffff}.style-header-3.top_panel_fixed .menu_main_wrap{border-color:#001e42}.top_panel_fixed .menu_main_wrap{border-color:#ececec}.menu_main_nav li>a{font-family:Work Sans,sans-serif;	color:#707070}.menu_main_nav>li>a{color:#282828}.style-header-1 .menu_main_nav li>a,.style-header-1 .menu_main_nav>li>a{color:#d59266}.style-header-1 .menu_main_nav>li+li>a:before{background-color:transparent}.style-header-1 .menu_main_nav>li ul{background-color:#ffeadc}.style-header-1 .menu_main_nav>li>a:hover,.style-header-1 .menu_main_nav>li.sfHover>a,.style-header-1 .menu_main_nav>li.current-menu-item>a,.style-header-1 .menu_main_nav>li.current-menu-parent>a,.style-header-1 .menu_main_nav>li.current-menu-ancestor>a{color:#2a2a2a}.style-header-1 .menu_main_nav>li li>a:hover,.style-header-1 .menu_main_nav>li li.sfHover>a,.style-header-1 .menu_main_nav>li li.current-menu-item>a,.style-header-1 .menu_main_nav>li li.current-menu-parent>a,.style-header-1 .menu_main_nav>li li.current-menu-ancestor>a{color:#2a2a2a}.menu_main_nav>li+li>a:before{background-color:#dadada}.menu_main_nav>li>a:hover,.menu_main_nav>li.sfHover>a,.menu_main_nav>li.current-menu-item>a,.menu_main_nav>li.current-menu-parent>a,.menu_main_nav>li.current-menu-ancestor>a{color:#6ba7bd}.menu_main_nav>li li>a:hover,.menu_main_nav>li li.sfHover>a,.menu_main_nav>li li.current-menu-item>a,.menu_main_nav>li li.current-menu-parent>a,.menu_main_nav>li li.current-menu-ancestor>a{color:#6ba7bd}.menu_main_nav>li ul{background-color:#f7fbfb}.top_panel_wrap .menu_main_responsive{background-color:#001e42}.menu_mode_responsive .menu_main_responsive_button,.menu_mode_responsive .menu_main_responsive a{color:#001e42;	font-family:Work Sans,sans-serif}.menu_mode_responsive .menu_main_responsive a{color:#ffffff}.menu_mode_responsive .menu_main_responsive_button:hover{color:#4e4e4e}.slider_swiper[data-slides-per-view="1"] .slide_cats{color:#6ba7bd}.slider_swiper.slider_multi .slide_cats a:hover,.slider_swiper.slider_multi .slide_title a:hover,.slider_swiper.slider_multi a:hover .slide_title{color:#6ba7bd}.slider_swiper[data-slides-per-view="1"] .slide_info .slide_cats{font-family:Caveat,cursive;	color:#5d99af}.slider_swiper[data-slides-per-view="1"] .slide_info .slide_cats a{color:#6ba7bd}.slider_swiper[data-slides-per-view="1"] .slide_info .slide_cats a:hover{color:#282828}.slider_swiper[data-slides-per-view="1"] .slide_info .slide_title a:hover{color:#868585}.slider_swiper[data-slides-per-view="1"] .slide_info .slide_date{font-family:Work Sans,sans-serif;	color:#b2b1b1}.slider_swiper .slider_prev:hover,.slider_swiper .slider_next:hover{background-color:#5d99af;	border-color:#5d99af;	color:#ffffff}.slider_swiper .swiper-pagination-bullet-active{background-color:#6ba7bd}.slider_swiper.slider_multi .slide_info{background-color:#f7fbfb}.related_wrap .post_item{color:#707070;	background-color:#f7fbfb}.post_item .post_categories,.post_item .post_categories a{font-family:Caveat,cursive;	color:#6ba7bd}.slider_swiper.slider_multi .slide_cats,.slider_swiper.slider_multi .slide_cats a{font-family:Caveat,cursive}.sc_recent_news .post_featured .post_info .post_categories,.sc_recent_news .post_featured .post_info .post_categories a{font-family:Caveat,cursive}.slider_swiper.slider_multi .slide_cats a:hover,.sc_recent_news .post_featured .post_info .post_categories a:hover,.post_item .post_categories a:hover{color:#282828}.sc_recent_news_style_news-portfolio .post_featured .post_info .post_categories a:hover{color:#ffffff}.post_item .post_label,.post_featured .post_label{background-color:#6ba7bd;	color:#ffffff}.post_featured .post_label.label_pinit{color:#ffffff;	font-family:Caveat,cursive}.post_featured .post_label.label_pinit:hover{color:#ffffff;	background-color:#5d99af}.slider_swiper.slider_multi .slide_date,.slider_swiper.slider_multi .slide_date a,.sc_recent_news .post_item .post_info .post_date,.sc_recent_news .post_item .post_info .post_date a,.post_item .post_info_item,.post_item a{color:#b2b1b1;	font-family:Work Sans,sans-serif}.post_item a:hover,.sc_recent_news .post_item .post_info .post_date a:hover{color:#5d99af}.widget_area .post_item .post_info a,aside .post_item .post_info a,.widget_area .post_item .post_category a,aside .post_item .post_category a{color:#5d99af}.post_item .post_title a{color:#282828}.widget_categories_list .categories_list_item .categories_list_title a:hover,.post_item .post_title a:hover{color:#868585}.post_item .post_date a:hover{color:#282828}.post_item .more-link{background-color:#6ba7bd;	color:#ffffff}.post_item .more-link:hover{border-color:#fbc5ab;	background-color:rgba(93,153,175,0.65);	color:#ffffff}.post_item .post_footer{color:#b2b1b1}.post_layout_excerpt.post_item,.widgets_above_page_wrap,.style-header-2 .header_wrap .widget,.style-header-3 .header_wrap .widget{border-color:#dadada}.post_item .post_footer .post_author a{color:#5d99af}.post_item .post_footer .post_author a:hover{color:#4e4e4e}.post_item .post_footer .post_date a,.post_item .post_footer .post_counters a,.post_footer .post_counters .post_share a{color:#b5b8b9}.post_item .post_footer .post_counters .post_share .social_items a:hover,.post_footer .post_counters .post_share a:hover{color:#5d99af}.post_item .post_footer .post_date a:hover,.post_item .post_footer .post_counters a:hover,.post_item .post_footer .post_counters_edit:hover:before,.post_item .post_footer .post_counters_edit:hover a{color:#4e4e4e}.post_item .post_footer .post_more a{border-color:#ececec;	color:#b5b8b9}.post_item:hover .post_footer .post_more a{border-color:#fbc5ab;	color:#fbc5ab}.post_item .post_footer .post_more a:hover{border-color:#fbc5ab;	background-color:#fbc5ab;	color:#ffffff}.post_counters .social_items,.post_counters .social_items:before{background-color:#f7fbfb;	border-color:#f7fbfb;	color:#b2b1b1}.post_featured:after{background-color:#001e42}.comments_list_wrap .comment_info,.comments_list_wrap .comment_reply a{font-family:Work Sans,sans-serif}.format-status .post_content{background-color:#fbc5ab;	color:#ffffff;	font-family:Work Sans,sans-serif}.format-aside .post_content,.format-quote:not(.post_item_single) .post_content,.format-link .post_content{background-color:#6ba7bd;	color:#ffffff;	font-family:Work Sans,sans-serif}.format-aside .post_content a,.format-quote:not(.post_item_single) .post_content a,.format-link .post_content a,.format-status .post_content a{color:#171a1b}.format-quote:not(.post_item_single) .post_content a{color:#ffffff}.format-aside .post_content a:hover,.format-quote:not(.post_item_single) .post_content a:hover,.format-link .post_content a:hover,.format-status .post_content a:hover{color:#868585}.is_stream .format-quote:not(.post_item_single) blockquote{color:#ffffff}.is_stream .format-quote:not(.post_item_single) .post_content:before{color:#ffffff}.format-quote.post_item_single .post_content:before{color:#ffffff}.format-chat p>b,.format-chat p>strong{color:#282828}.nav-links-old a{color:#282828;	background-color:#f7fbfb}.nav-links-old a:hover{color:#ffffff;	background-color:#5d99af}.page_links>a,.nav-links .page-numbers,.nav-links-old a{font-family:Work Sans,sans-serif}.page_links>a,.nav-links .page-numbers{color:#4e4e4e;	background-color:#f0f7f8}.page_links>span:not(.page_links_title),.page_links>a:hover,.nav-links .page-numbers.current,.nav-links a.page-numbers:hover{color:#ffffff;	background-color:#fbc5ab}.single .nav-links{border-color:#dadada}.post_item_single .post_footer{font-family:Work Sans,sans-serif}.post_item_single .post_header .post_date{color:#b2b1b1;	font-family:Work Sans,sans-serif}.post_item_single .post_taxes .cats_label,.post_item_single .post_taxes .tags_label{color:#b2b1b1}.post_item_single .post_taxes a{color:#5d99af}.post_item_single .post_taxes a:hover{color:#282828}.post_item_single .post_counters .post_counters_item,.post_item_single .post_counters .post_counters_item>a,.post_item_single .post_counters .socials_caption{color:#b2b1b1}.post_item_single .post_counters .post_counters_item:hover,.post_item_single .post_counters .post_counters_item:hover:before,.post_item_single .post_counters .post_counters_item>a:hover,.post_item_single .post_counters .socials_caption:hover{color:#5d99af}.author_info{background-color:#f7fbfb;	color:#707070}.author_info .author_title{}.single .nav-links .nav-links{border-color:#dadada}.single .nav-links a{background-color:#f7fbfb;	color:#b5b8b9}.single .nav-links a:hover{border-color:#fbc5ab;	color:#4e4e4e}.single .nav-links a:after{border-color:#ececec}.image-navigation .nav-previous a:after,.image-navigation .nav-next a:after{background-color:#f7fbfb;	border-color:#ececec;	color:#b5b8b9}.image-navigation .nav-previous a:hover,.image-navigation .nav-next a:hover{background-color:#f7fbfb;	border-color:#ececec;	color:#6ba7bd}.image-navigation .nav-previous a:hover:after,.image-navigation .nav-next a:hover:after{color:#6ba7bd}.nav-links .meta-nav{font-family:Work Sans,sans-serif}.related_wrap{}.post_item .post_footer{font-family:Work Sans,sans-serif}.sc_contact_form,.comments_list_wrap,.comments_form_wrap{border-color:#dadada}.comments_list_wrap li + li,.comments_list_wrap li ul{border-color:#dadada}.comments_list_wrap .comment_text{color:#707070}.sc_contact_form button,.comments_wrap .form-submit input[type="submit"],.comments_wrap .form-submit input[type="button"]{background-color:#fbc5ab;	color:#ffffff;	font-family:Work Sans,sans-serif}.sc_contact_form button:hover,.comments_wrap .form-submit input[type="submit"]:hover,.comments_wrap .form-submit input[type="button"]:hover,.sc_contact_form button:focus,.comments_wrap .form-submit input[type="submit"]:focus,.comments_wrap .form-submit input[type="button"]:focus{background-color:#5d99af}.sc_contact_form .result{color:#ffffff;	border-color:#5d99af;	background-color:#6ba7bd}.sidebar aside{color:#707070}.sidebar aside + aside{border-color:#dadada}aside .widget_title{background-color:#ffeadc}#sb_instagram .sbi_photo_wrap a:hover:before{background-color:rgba(0,30,66,0.5)}.widget_categories_list .categories_list_style_2 .categories_list_title{color:#001e42}aside input[type="text"],aside input[type="number"],aside input[type="email"],aside input[type="search"],aside input[type="password"],aside .select_container,aside textarea{color:#707070;	background-color:#f0f7f8}aside input[type="text"]:focus,aside input[type="number"]:focus,aside input[type="email"]:focus,aside input[type="search"]:focus,aside input[type="password"]:focus,aside .select_container:hover,aside textarea:focus{color:#282828;	background-color:#f7fbfb}.widget_area .mc4wp_wrap input[type="submit"]{background-color:#6ba7bd;	font-family:Work Sans,sans-serif}.widget_area .mc4wp_wrap input[type="submit"]:hover{background-color:#5d99af}aside .select_container select{color:#707070}aside .select_container:hover select,aside .select_container select:focus{color:#282828}aside .mc4wp_wrap:after,.widget_search form:after{color:#b2b1b1}aside .select_container:after{color:#b2b1b1;	border-color:#b2b1b1}aside input::-webkit-input-placeholder,aside textarea::-webkit-input-placeholder{color:#b2b1b1}aside h1,aside h2,aside h3,aside h4,aside h5,aside h6,aside h1 a,aside h2 a,aside h3 a,aside h4 a,aside h5 a,aside h6 a,.copyright_wrap h1,.copyright_wrap h2,.copyright_wrap h3,.copyright_wrap h4,.copyright_wrap h5,.copyright_wrap h6,.copyright_wrap h1 a,.copyright_wrap h2 a,.copyright_wrap h3 a,.copyright_wrap h4 a,.copyright_wrap h5 a,.copyright_wrap h6 a{color:#282828}aside a,.copyright_wrap a{color:#f0f7f8}aside a:hover,.copyright_wrap a:hover{color:#fbc5ab}aside ul li{color:#707070}aside ul li a{color:#4e4e4e}aside ul li a:hover{color:#fbc5ab}aside ul li:before{color:#fbc5ab}aside .post_item + .post_item{}.search_results.widget_area .post_item + .post_item{border-color:#dadada}.widget_area .post_info_counters .post_counters_item,aside .post_info_counters .post_counters_item{color:#b5b8b9}.widget_area .post_info_counters .post_counters_item:hover,aside .post_info_counters .post_counters_item:hover{color:#4e4e4e}aside.widget_bg_image a,aside.widget_bg_image ul li a{color:#ffffff}aside.widget_bg_image a:hover,aside.widget_bg_image ul li a:hover{color:#868585}.widget_product_tag_cloud a,.widget_tag_cloud a{background-color:#f0f7f8;	color:#4e4e4e;	font-family:Work Sans,sans-serif}.widget_product_tag_cloud a:hover,.widget_tag_cloud a:hover{background-color:#fbc5ab;	color:#ffffff}.widget_rss li{color:#707070}.widget_rss .rss-date{color:#b5b8b9}.widget_rss li+li{border-color:rgba(236,236,236,0.6)}.widget_rss li>a{font-family:Work Sans,sans-serif;	color:#4e4e4e}.widget_rss li>a:hover{color:#fbc5ab}.widget_recent_comments span.comment-author-link{color:#4e4e4e}.widget_calendar table{color:#707070}.widget_calendar tbody td a,.widget_calendar th{color:#4e4e4e}.widget_calendar tbody td a:after{color:#f0f7f8}.widget_calendar tbody td a:hover{color:#fbc5ab}.widget_calendar td#today{color:#ffffff}.widget_calendar td#today:before{background-color:#f0f7f8}.widget_calendar td#today a,.widget_calendar td#today a:after{color:#ffffff}.widget_calendar #prev a,.widget_calendar #next a{color:#4e4e4e}.widget_calendar #prev a span,.widget_calendar #next a span{border-color:#ececec;	color:#707070}.widget_calendar #prev a:hover,.widget_calendar #next a:hover,.widget_calendar #prev a:hover span,.widget_calendar #next a:hover span{color:#fbc5ab}.widget_calendar #prev a:hover span,.widget_calendar #next a:hover span{border-color:#fbc5ab}.widget_socials .social_item span{color:#6ba7bd}.widget_socials .social_item a:hover span{color:#5d99af}aside .sc_tabs .sc_tabs_titles li a{color:#282828;	font-family:Work Sans,sans-serif}aside .sc_tabs .sc_tabs_titles li.ui-tabs-active:after{background-color:#282828}.sc_recent_news_header{border-color:#282828}.sc_recent_news_header_category_item_more{color:#6ba7bd}.sc_recent_news_header_more_categories{border-color:#ececec;	background-color:#f7fbfb}.sc_recent_news_header_more_categories>a{color:#f0f7f8}.sc_recent_news_header_more_categories>a:hover{color:#fbc5ab;	background-color:#001e42}.sc_recent_news .post_counters_item,.sc_recent_news .post_counters .post_edit a{background-color:#f7fbfb}.sidebar .sc_recent_news .post_counters_item,.sidebar .sc_recent_news .post_counters .post_edit a{background-color:#ffffff}.sc_recent_news .post_counters .post_edit a{color:#4e4e4e}.sc_recent_news_style_news-magazine .post_accented_border{border-color:#dadada}.sc_recent_news_style_news-excerpt .post_item{border-color:#dadada}.sc_recent_news .post_item .post_title a{color:#ffffff}.sc_recent_news .post_item .post_title a:hover{color:#5d99af}.footer_wrap{background-color:#f7fbfb;	color:#707070}.copyright_wrap{background-color:#001e42;	color:#ffffff}.copyright_wrap .socials_wrap a{color:#ffffff}.copyright_wrap .socials_wrap{font-family:Work Sans,sans-serif}.copyright_wrap .socials_wrap .social_item a:hover,.copyright_wrap .socials_wrap .social_item a:hover span{color:#fbc5ab}.socials_wrap .social_item a:hover span{color:#b2b1b1}.scroll_to_top{color:#ffffff}.scroll_to_top:hover{background-color:#6ba7bd;	color:#ffffff}.woo_link{font-family:Work Sans,sans-serif}.woo_link:hover{color:#868585}.woo_link:before{color:#5d99af}.woocommerce .list_products_header a:hover,.woocommerce-page .list_products_header a:hover{color:#fbc5ab}.woocommerce .widget_price_filter .ui-slider .ui-slider-range,.woocommerce .widget_price_filter .ui-slider .ui-slider-handle{background-color:#6ba7bd}.woocommerce .mariana_handmade_shop_mode_buttons a:hover,.woocommerce-page .mariana_handmade_shop_mode_buttons a:hover{color:#5d99af}.woocommerce nav.woocommerce-pagination ul li a,.woocommerce nav.woocommerce-pagination ul li span{color:#4e4e4e;	background-color:#f0f7f8;	font-family:Work Sans,sans-serif}.woocommerce nav.woocommerce-pagination ul li a:hover,.woocommerce nav.woocommerce-pagination ul li span.current{color:#ffffff;	background-color:#fbc5ab}.woocommerce span.onsale{font-family:Caveat,cursive}.woocommerce table.cart td .amount{font-family:Work Sans,sans-serif}.woocommerce ul.cart_list li a:hover,.woocommerce ul.product_list_widget li a:hover,.woocommerce-page ul.cart_list li a:hover,.woocommerce-page ul.product_list_widget li a:hover{color:#868585}.woocommerce ul.products li.product .post_data,.woocommerce-page ul.products li.product .post_data{background-color:#f7fbfb}.woocommerce ul.products li.product .post_header a,.woocommerce-page ul.products li.product .post_header a{color:#4e4e4e}.woocommerce ul.products li.product .post_header a:hover,.woocommerce-page ul.products li.product .post_header a:hover{color:#868585}.woocommerce div.product p.price,.woocommerce div.product span.price,.woocommerce ul.products li.product .price{color:#6ba7bd}.woocommerce div.product p.price,.woocommerce .post_data span.amount,.woocommerce-page .post_data span.amount{color:#fcb5c4;	font-family:Caveat,cursive}.woocommerce .post_data .price del>span.amount{color:#b2b1b1}.woocommerce ul.products li.product .button{font-family:Work Sans,sans-serif;	background-color:#6ba7bd;	color:#ffffff}aside.woocommerce del,.woocommerce del>span.amount,.woocommerce-page del>span.amount{color:#b5b8b9}.single-product div.product .trx-stretch-width .woocommerce-tabs{border-color:#dadada}.single-product div.product .trx-stretch-width .woocommerce-tabs .wc-tabs li a{font-family:Work Sans,sans-serif}.woocommerce div.product form.cart div.quantity span,.woocommerce-page div.product form.cart div.quantity span{color:#ffffff;	background-color:#6ba7bd}.woocommerce div.product form.cart div.quantity span:hover,.woocommerce-page div.product form.cart div.quantity span:hover{background-color:#5d99af}.single-product div.product .trx-stretch-width .woocommerce-tabs .wc-tabs li.active a{color:#ffffff;	background-color:rgba(93,153,175,0.65)}.single-product div.product .trx-stretch-width .woocommerce-tabs .wc-tabs li a:hover{color:#ffffff;	background-color:#5d99af}aside.woocommerce .product-title,aside.woocommerce .mini_cart_item>a:not(.remove){font-family:Work Sans,sans-serif}aside.woocommerce .product-title:hover,aside.woocommerce .mini_cart_item>a:not(.remove):hover{color:#868585}.woocommerce #respond input#submit,.woocommerce a.button,.woocommerce button.button,.woocommerce input.button{font-family:Work Sans,sans-serif;	background-color:#6ba7bd;	color:#ffffff}.woocommerce #respond input#submit:hover,.woocommerce a.button:hover,.woocommerce button.button:hover,.woocommerce input.button:hover{border-color:#fbc5ab;	background-color:rgba(93,153,175,0.65);	color:#ffffff}.woocommerce #respond input#submit.alt,.woocommerce a.button.alt,.woocommerce button.button.alt,.woocommerce input.button.alt,.woocommerce ul.products li.product .button,.woocommerce-page ul.products li.product .button{font-family:Work Sans,sans-serif;	background-color:#6ba7bd;	color:#ffffff}.woocommerce #respond input#submit.alt:hover,.woocommerce a.button.alt:hover,.woocommerce button.button.alt:hover,.woocommerce input.button.alt:hover,.woocommerce ul.products li.product .button:hover,.woocommerce-page ul.products li.product .button:hover{border-color:#fbc5ab;	background-color:rgba(93,153,175,0.65);	color:#ffffff}.woocommerce .star-rating span::before{color:#fbc5ab}.woocommerce.widget_product_search form:before{color:#b2b1b1}.woocommerce.widget_product_search .search_button{background-color:#6ba7bd;	color:#ffffff}
+
+				.post-navigation .nav-next a { background-image: url(images/kint.jpg); }
+				.post-navigation .nav-next .post-title, .post-navigation .nav-next a:hover .post-title, .post-navigation .nav-next .meta-nav, .post-navigation .nav-next a:after { color: #fff; }
+				.post-navigation .nav-next a:before { background-color: rgba(0, 0, 0, 0.4); }
+				.post-navigation .nav-next a:after { border-color: #fff; }
+			
+</style>
+<link rel="stylesheet" id="handmade-responsive-style-css" href="css/responsive.css" type="text/css" media="all">
+<link rel="stylesheet" id="mediaelement-css" href="css/mediaelementplayer.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-mediaelement-css" href="css/wp-mediaelement.css" type="text/css" media="all">
+<link rel="stylesheet" id="handmade-magnific-style-css" href="css/magnific-popup.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery-migrate.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/2016\/05\/22\/30-napi-recept\/?wc-ajax=%%endpoint%%","i18n_view_cart":"Kos\u00e1r megtekint\u00e9se","cart_url":"http:\/\/szilagyivirag.hu\/cart\/","is_cart":"","cart_redirect_after_add":"yes"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/add-to-cart.min.js"></script>
+<script type="text/javascript" src="js/woocommerce-add-to-cart.js"></script>
+<link rel="https://api.w.org/" href="http://szilagyivirag.hu/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://szilagyivirag.hu/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://szilagyivirag.hu/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="29. napi recept" href="http://szilagyivirag.hu/2016/05/22/29-napi-recept/">
+<link rel="next" title="Szabin a Mami &#8211; avagy a MAMATÁBOR" href="http://szilagyivirag.hu/2016/06/06/szabin-a-mami-avagy-a-mamatabor/">
+<meta name="generator" content="WordPress 4.4.24">
+<meta name="generator" content="WooCommerce 2.5.2">
+<link rel="canonical" href="http://szilagyivirag.hu/2016/05/22/30-napi-recept/">
+<link rel="shortlink" href="http://szilagyivirag.hu/?p=563">
+<link rel="alternate" type="application/json+oembed" href="http://szilagyivirag.hu/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fszilagyivirag.hu%2F2016%2F05%2F22%2F30-napi-recept%2F">
+<link rel="alternate" type="text/xml+oembed" href="http://szilagyivirag.hu/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fszilagyivirag.hu%2F2016%2F05%2F22%2F30-napi-recept%2F&#038;format=xml">
+<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress.">
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://szilagyivirag.hu/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="http://szilagyivirag.hu/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]--><style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #eff9ff; background-image: url('images/back_new.png'); background-repeat: repeat; background-position: top left; background-attachment: scroll; }
+</style>
+<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+
+<body class="single single-post postid-563 single-format-standard custom-background body_style_boxed blog_mode_post style-header-1 is_single scheme_default sidebar_hide wpb-js-composer js-comp-ver-4.10 vc_responsive">
+	
+	<div class="body_wrap">
+
+		<div class="page_wrap">
+
+			<div class="top_panel_logo_wrap">
+	<div class="content_wrap top_panel_logo logo_wrap">
+		<div class="logo">
+			<a href="http://szilagyivirag.hu/"><img src="images/szilagyi_virag_logo_neves-01.jpg" class="logo_main" alt width="3626" height="2598"></a>
+		</div>
+		<div class="search_and_socials">
+			<div class="search_wrap search_ajax">
+	<div class="search_form_wrap">
+		<form method="get" class="search_form" action="http://szilagyivirag.hu/">
+			<button type="submit" class="search_submit icon-search-new" title="Start search"></button>
+			<input type="text" class="search_field" placeholder="Keresés" value name="s">
+		</form>
+	</div>
+	<div class="search_results widget_area"><a class="search_results_close icon-cancel"></a><div class="search_results_content"></div></div>
+</div>
+		</div>
+	</div>
+</div>
+<div class="top_panel_fixed_wrap"></div>
+
+<header class="top_panel_wrap">
+	<div class="menu_main_wrap clearfix">
+		<div class="content_wrap">
+			<a href="#" class="menu_main_responsive_button" data-title="MENÜ"></a>
+			<nav class="menu_main_nav_area">
+				<ul id="menu_main" class="menu_main_nav"><li id="menu-item-646" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-646"><a href="http://szilagyivirag.hu/ikersiker/">ikerSiker</a></li>
+<li id="menu-item-328" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-328"><a href="http://szilagyivirag.hu/bemutatkozas/">Rólam</a></li>
+<li id="menu-item-349" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-349"><a href="http://szilagyivirag.hu/category/blog/">Blog</a></li>
+<li id="menu-item-354" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-354"><a href="http://szilagyivirag.hu/media/">Média</a></li>
+<li id="menu-item-389" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-389"><a href="http://szilagyivirag.hu/kapcsolat/">Kapcsolat</a></li>
+<li id="menu-item-694" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-694"><a href="http://szilagyivirag.hu/termek/ikersiker/">Webshop</a></li>
+<li id="menu-item-680" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-680"><a href="http://szilagyivirag.hu/cart/">Kosár</a></li>
+</ul>			</nav>
+		</div>
+	</div>
+</header>
+
+			<div class="page_content_wrap">
+
+								<div class="content_wrap">
+				
+									
+
+					<div class="content">
+										
+
+<article id="post-563" class="post_item_single post_type_post post_format_ post-563 post type-post status-publish format-standard hentry category-zold-turmix-receptek">
+
+			<div class="post_header entry-header">
+			<h1 class="post_title entry-title">30. napi recept</h1>							<div class="post_date">
+					<span class="date updated">2016-05-22</span>
+									</div>
+					</div><!-- .entry-header -->
+		
+	<div class="post_content entry-content">
+		<h3 style="text-align: center;">A 30. TURMIX</h3>
+<p style="text-align: center;"><strong>KÉSZÍTSD EL AZ EDDIGIEK ALAPJÁN A KEDVENC TURMIXODAT!</strong></p>
+<p style="text-align: center;"><img class="alignnone size-medium wp-image-516" src="images/eprzt-300x199.jpg" alt="eprzt" width="300" height="199" srcset="images/eprzt-300x199.jpg 300w, images/eprzt-768x510.jpg 768w, images/eprzt.jpg 1000w" sizes="(max-width: 300px) 100vw, 300px"></p>
+<p style="text-align: center;"><img class="alignnone size-medium wp-image-534" src="images/img_3011-300x168.jpg" alt="img_3011" width="300" height="168" srcset="images/img_3011-300x168.jpg 300w, images/img_3011-768x431.jpg 768w, images/img_3011-1024x575.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px"></p>
+<p style="text-align: center;"><img class="alignnone size-full wp-image-533" src="images/images.jpg" alt="images" width="225" height="225" srcset="images/images-150x150.jpg 150w, images/images-180x180.jpg 180w, images/images-80x80.jpg 80w, images/images.jpg 225w" sizes="(max-width: 225px) 100vw, 225px"></p>
+<p><img class="size-medium wp-image-531" src="images/5-300x218.jpg" alt="Green fresh healthy smoothie" width="300" height="218" srcset="images/5-300x218.jpg 300w, images/5.jpg 695w" sizes="(max-width: 300px) 100vw, 300px"></p>
+<p>&nbsp;</p>
+<h2 style="text-align: center;">GRATULÁLOK!</h2>
+<p style="text-align: center;">Végigcsináltad a 30 napot, le a kalappal! Köszönöm, hogy velem tartottál! Remélem pozitív élménnyel gazdagodtál és sikerült egy kicsit egészségesebben, energikusan kezdened a napjaidat!</p>
+<p style="text-align: center;">További sok sikert kívánok!</p>
+<p style="text-align: center;">Jó nyarat! Jöhet az a fürdőruha! 😉</p>
+	</div><!-- .entry-content -->
+
+	<div class="post_footer entry-footer clearfix">
+		<div class="post_taxes">
+				<div class="post_categories"><span class="cats_label">Categories:</span><ul class="post-categories">
+	<li><a href="http://szilagyivirag.hu/category/zold-turmix-receptek/" rel="category tag">Zöld turmix receptek</a></li></ul></div>
+				<div class="post_tags"></div>
+			</div>
+			<div class="post_counters post_counters_single">		<a href="http://szilagyivirag.hu/2016/05/22/30-napi-recept/" class="post_counters_item post_counters_views icon-eye-light"><span class="post_counters_number">362</span></a><span class="sep"></span>
+			<a class="post_counters_item post_counters_likes icon-heart-empty-new enabled" title="Like" href="#" data-postid="563" data-likes="0" data-title-like="Like" data-title-dislike="Dislike"><span class="post_counters_number">0</span></a><span class="sep"></span>
+		<div class="post_counters_item post_share"><div class="socials_wrap socials_share socials_size_tiny socials_drop"><a href="#" class="socials_caption"><span class="socials_caption_label"></span></a><span class="social_items"><span class="social_item social_item_popup"><a href="https://twitter.com/intent/tweet?text=30.+napi+recept&#038;url=http%3A%2F%2Fszilagyivirag.hu%2F2016%2F05%2F22%2F30-napi-recept%2F" class="social_icons social_twitter" data-link="https://twitter.com/intent/tweet?text=30.+napi+recept&#038;url=http%3A%2F%2Fszilagyivirag.hu%2F2016%2F05%2F22%2F30-napi-recept%2F" data-count="twitter"><span class="icon-twitter"></span>twitter</a></span><span class="social_item social_item_popup"><a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fszilagyivirag.hu%2F2016%2F05%2F22%2F30-napi-recept%2F" class="social_icons social_facebook" data-link="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fszilagyivirag.hu%2F2016%2F05%2F22%2F30-napi-recept%2F" data-count="facebook"><span class="icon-facebook"></span>facebook</a></span><span class="social_item social_item_popup"><a href="https://plus.google.com/share?url=http%3A%2F%2Fszilagyivirag.hu%2F2016%2F05%2F22%2F30-napi-recept%2F" class="social_icons social_gplus" data-link="https://plus.google.com/share?url=http%3A%2F%2Fszilagyivirag.hu%2F2016%2F05%2F22%2F30-napi-recept%2F" data-count="gplus"><span class="icon-gplus"></span>gplus</a></span><span class="social_item social_item_popup"><a href="http://www.tumblr.com/share?v=3&#038;u=http%3A%2F%2Fszilagyivirag.hu%2F2016%2F05%2F22%2F30-napi-recept%2F&#038;t=30.+napi+recept&#038;s=A+30.%C2%A0TURMIX+K%C3%89SZ%C3%8DTSD+EL+AZ+EDDIGIEK+ALAPJ%C3%81N+A+KEDVENC+TURMIXODAT%21+%26nbsp%3B+GRATUL%C3%81LOK%21+V%C3%A9gigcsin%C3%A1ltad+a+30+napot%2C+le+a+kalappal%21+K%C3%B6sz%C3%B6n%C3%B6m%2C+hogy+velem+tartott%C3%A1l%21+Rem%C3%A9lem+pozit%C3%ADv+%C3%A9lm%C3%A9nnyel+gazdagodt%C3%A1l+%C3%A9s+siker%C3%BClt+egy+kicsit+eg%C3%A9szs%C3%A9gesebben%2C+energikusan+kezdened+a+napjaidat%21+Tov%C3%A1bbi+sok+sikert+k%C3%ADv%C3%A1nok%21+J%C3%B3+nyarat%21+J%C3%B6het+az+a+f%C3%BCrd%C5%91ruha%21+%F0%9F%98%89" class="social_icons social_tumblr" data-link="http://www.tumblr.com/share?v=3&#038;u=http%3A%2F%2Fszilagyivirag.hu%2F2016%2F05%2F22%2F30-napi-recept%2F&#038;t=30.+napi+recept&#038;s=A+30.%C2%A0TURMIX+K%C3%89SZ%C3%8DTSD+EL+AZ+EDDIGIEK+ALAPJ%C3%81N+A+KEDVENC+TURMIXODAT%21+%26nbsp%3B+GRATUL%C3%81LOK%21+V%C3%A9gigcsin%C3%A1ltad+a+30+napot%2C+le+a+kalappal%21+K%C3%B6sz%C3%B6n%C3%B6m%2C+hogy+velem+tartott%C3%A1l%21+Rem%C3%A9lem+pozit%C3%ADv+%C3%A9lm%C3%A9nnyel+gazdagodt%C3%A1l+%C3%A9s+siker%C3%BClt+egy+kicsit+eg%C3%A9szs%C3%A9gesebben%2C+energikusan+kezdened+a+napjaidat%21+Tov%C3%A1bbi+sok+sikert+k%C3%ADv%C3%A1nok%21+J%C3%B3+nyarat%21+J%C3%B6het+az+a+f%C3%BCrd%C5%91ruha%21+%F0%9F%98%89" data-count="tumblr"><span class="icon-tumblr"></span>tumblr</a></span><span class="social_item social_item_popup"><a href="http://connect.mail.ru/share?url=http%3A%2F%2Fszilagyivirag.hu%2F2016%2F05%2F22%2F30-napi-recept%2F&#038;title=30.+napi+recept&#038;description=A+30.%C2%A0TURMIX+K%C3%89SZ%C3%8DTSD+EL+AZ+EDDIGIEK+ALAPJ%C3%81N+A+KEDVENC+TURMIXODAT%21+%26nbsp%3B+GRATUL%C3%81LOK%21+V%C3%A9gigcsin%C3%A1ltad+a+30+napot%2C+le+a+kalappal%21+K%C3%B6sz%C3%B6n%C3%B6m%2C+hogy+velem+tartott%C3%A1l%21+Rem%C3%A9lem+pozit%C3%ADv+%C3%A9lm%C3%A9nnyel+gazdagodt%C3%A1l+%C3%A9s+siker%C3%BClt+egy+kicsit+eg%C3%A9szs%C3%A9gesebben%2C+energikusan+kezdened+a+napjaidat%21+Tov%C3%A1bbi+sok+sikert+k%C3%ADv%C3%A1nok%21+J%C3%B3+nyarat%21+J%C3%B6het+az+a+f%C3%BCrd%C5%91ruha%21+%F0%9F%98%89&#038;imageurl=" class="social_icons social_mail" data-link="http://connect.mail.ru/share?url=http%3A%2F%2Fszilagyivirag.hu%2F2016%2F05%2F22%2F30-napi-recept%2F&#038;title=30.+napi+recept&#038;description=A+30.%C2%A0TURMIX+K%C3%89SZ%C3%8DTSD+EL+AZ+EDDIGIEK+ALAPJ%C3%81N+A+KEDVENC+TURMIXODAT%21+%26nbsp%3B+GRATUL%C3%81LOK%21+V%C3%A9gigcsin%C3%A1ltad+a+30+napot%2C+le+a+kalappal%21+K%C3%B6sz%C3%B6n%C3%B6m%2C+hogy+velem+tartott%C3%A1l%21+Rem%C3%A9lem+pozit%C3%ADv+%C3%A9lm%C3%A9nnyel+gazdagodt%C3%A1l+%C3%A9s+siker%C3%BClt+egy+kicsit+eg%C3%A9szs%C3%A9gesebben%2C+energikusan+kezdened+a+napjaidat%21+Tov%C3%A1bbi+sok+sikert+k%C3%ADv%C3%A1nok%21+J%C3%B3+nyarat%21+J%C3%B6het+az+a+f%C3%BCrd%C5%91ruha%21+%F0%9F%98%89&#038;imageurl=" data-count="mail"><span class="icon-mail"></span>mail</a></span></span></div></div><span class="sep"></span>		<a href="http://szilagyivirag.hu/2016/05/22/30-napi-recept/#respond" class="post_counters_item post_counters_comments icon-comment2"><span class="post_counters_number">0</span></a>
+	</div>	</div><!-- .entry-footer -->
+
+	
+</article>
+
+	<nav class="navigation post-navigation" role="navigation">
+		<h2 class="screen-reader-text">Bejegyzés navigáció</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="http://szilagyivirag.hu/2016/05/22/29-napi-recept/" rel="prev"><span class="meta-nav" aria-hidden="true">Previous</span> <span class="screen-reader-text">Previous post:</span> <h4 class="post-title">29. napi recept</h4></a></div><div class="nav-next"><a href="http://szilagyivirag.hu/2016/06/06/szabin-a-mami-avagy-a-mamatabor/" rel="next"><span class="meta-nav" aria-hidden="true">Next</span> <span class="screen-reader-text">Next post:</span> <h4 class="post-title">Szabin a Mami &#8211; avagy a MAMATÁBOR</h4></a></div></div>
+	</nav>	<section class="related_wrap">
+		<h3 class="related_wrap_title">You May Also Like</h3>
+		<div class="columns_wrap"><div class="column-1_3">
+					<div class="related_item post_item">
+													<div class="post_featured">
+								<a href="http://szilagyivirag.hu/2016/05/22/29-napi-recept/"><img src="images/no_img.jpg" alt></a>
+							</div>
+												<div class="post_header entry-header">
+							<h4 class="post_title entry-title"><a href="http://szilagyivirag.hu/2016/05/22/29-napi-recept/">29. napi recept</a></h4>
+						</div>
+						<div class="post_footer entry-footer">
+							<span class="post_date"><a href="http://szilagyivirag.hu/2016/05/22/29-napi-recept/">2016-05-22</a></span>						</div>
+						<!-- .entry-footer -->
+					</div></div><div class="column-1_3">
+					<div class="related_item post_item">
+													<div class="post_featured">
+								<a href="http://szilagyivirag.hu/2016/05/22/28-napi-recept/"><img src="images/no_img.jpg" alt></a>
+							</div>
+												<div class="post_header entry-header">
+							<h4 class="post_title entry-title"><a href="http://szilagyivirag.hu/2016/05/22/28-napi-recept/">28. napi recept</a></h4>
+						</div>
+						<div class="post_footer entry-footer">
+							<span class="post_date"><a href="http://szilagyivirag.hu/2016/05/22/28-napi-recept/">2016-05-22</a></span>						</div>
+						<!-- .entry-footer -->
+					</div></div><div class="column-1_3">
+					<div class="related_item post_item">
+													<div class="post_featured">
+								<a href="http://szilagyivirag.hu/2016/05/22/27-napi-recept/"><img src="images/no_img.jpg" alt></a>
+							</div>
+												<div class="post_header entry-header">
+							<h4 class="post_title entry-title"><a href="http://szilagyivirag.hu/2016/05/22/27-napi-recept/">27. napi recept</a></h4>
+						</div>
+						<div class="post_footer entry-footer">
+							<span class="post_date"><a href="http://szilagyivirag.hu/2016/05/22/27-napi-recept/">2016-05-22</a></span>						</div>
+						<!-- .entry-footer -->
+					</div></div>		</div>
+	</section>
+	<section class="comments_wrap">
+			<div class="comments_form_wrap">
+			<h3 class="section_title comments_form_title">Leave a Reply</h3>
+			<div class="comments_form">
+								<div id="respond" class="comment-respond">
+			<h3 id="reply-title" class="comment-reply-title"> <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2016/05/22/30-napi-recept/#respond" style="display:none;">Kilépés a válaszból</a></small></h3>				<form action="http://szilagyivirag.hu/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+					<div class="comments_field comments_message"><label for="comment" class="required">Your Message</label><textarea id="comment" name="comment" placeholder="comment" aria-required="true"></textarea></div><div class="columns_wrap"><div class="comments_field comments_author column-1_2"><label for="author" class="required">Name</label><input id="author" name="author" type="text" placeholder="name *" value size="30" aria-required="true"></div>
+<div class="comments_field comments_email column-1_2"><label for="email" class="required">Email</label><input id="email" name="email" type="text" placeholder="email *" value size="30" aria-required="true"></div>
+<div class="comments_field comments_site column-1_1"><label for="url" class="optional">Website</label><input id="url" name="url" type="text" placeholder="website" value size="30" aria-required="true"></div></div>
+<div class="gglcptch gglcptch_v2"><div id="gglcptch_recaptcha_1970398079" class="gglcptch_recaptcha"></div>
+				<noscript>
+					<div style="width: 302px;">
+						<div style="width: 302px; height: 422px; position: relative;">
+							<div style="width: 302px; height: 422px; position: absolute;">
+								<iframe src="fallback.html" frameborder="0" scrolling="no" style="width: 302px; height:422px; border-style: none;"></iframe>
+							</div>
+						</div>
+						<div style="border-style: none; bottom: 12px; left: 25px; margin: 0px; padding: 0px; right: 25px; background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px; height: 60px; width: 300px;">
+							<textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px !important; height: 40px !important; border: 1px solid #c1c1c1 !important; margin: 10px 25px !important; padding: 0px !important; resize: none !important;"></textarea>
+						</div>
+					</div>
+				</noscript></div><p class="form-submit"><input name="submit" type="submit" id="send_comment" class="submit" value="Send message"> <input type="hidden" name="comment_post_ID" value="563" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p>				</form>
+					</div><!-- #respond -->
+					</div>
+		</div><!-- /.comments_form_wrap -->
+		</section><!-- /.comments_wrap -->
+	<!-- Post/page views count increment -->
+	<script type="text/javascript">
+		jQuery(document).ready(function() {
+			setTimeout(function() {
+				jQuery.post(MARIANA_HANDMADE_STORAGE['ajax_url'], {
+					action: 'post_counter',
+					nonce: MARIANA_HANDMADE_STORAGE['ajax_nonce'],
+					post_id: 563,
+					views: 1
+				}).done(function(response) {
+					var rez = {};
+					try {
+						rez = JSON.parse(response);
+					} catch (e) {
+						rez = { error: MARIANA_HANDMADE_STORAGE['ajax_error'] };
+						console.log(response);
+					}
+					if (rez.error === '') {
+						jQuery('.post_counters_single .post_counters_views .post_counters_number').html(rez.counter);
+					}
+				});
+			}, 10);
+		});
+	</script>
+					
+					</div>	<!-- </.content> -->
+
+					</div>	<!-- </.content_wrap> -->			</div>		<!-- </.page_content_wrap> -->
+			
+							<footer class="footer_wrap widget_area">
+					<div class="footer_wrap_inner widget_area_inner">
+						<div class="content_wrap"><aside id="text-2" class="widget widget_text"><h5 class="widget_title">Kövess Instagramon!</h5>			<div class="textwidget">
+<div id="sb_instagram" class="sbi sbi_col_8  sbi_width_resp sbi_disable_mobile" style="width: 100%;" data-feedid="sbi_szilagyivirag_#8" data-res="medium" data-cols="8" data-num="8" data-shortcode-atts="{}">
+	
+    <div id="sbi_images">
+		<div class="sbi_item sbi_type_carousel sbi_new sbi_transition" id="sbi_17892801836061215" data-date="1619296444">
+    <div class="sbi_photo_wrap">
+        <a class="sbi_photo" href="https://www.instagram.com/p/COD_GOPhaGZ/" target="_blank" rel="noopener nofollow" data-full-res="https://scontent.cdninstagram.com/v/t51.29350-15/177539985_453969462374822_7322026811573539414_n.jpg?_nc_cat=102&#038;ccb=1-3&#038;_nc_sid=8ae9d6&#038;_nc_ohc=bAZNTnVG19oAX9FrmbK&#038;_nc_ht=scontent.cdninstagram.com&#038;oh=b72e05db3813944135cf7edcb4db86bf&#038;oe=60AB55AC" data-img-src-set="{&quot;d&quot;:&quot;https:\/\/scontent.cdninstagram.com\/v\/t51.29350-15\/177539985_453969462374822_7322026811573539414_n.jpg?_nc_cat=102&amp;ccb=1-3&amp;_nc_sid=8ae9d6&amp;_nc_ohc=bAZNTnVG19oAX9FrmbK&amp;_nc_ht=scontent.cdninstagram.com&amp;oh=b72e05db3813944135cf7edcb4db86bf&amp;oe=60AB55AC&quot;,&quot;150&quot;:&quot;https:\/\/www.instagram.com\/p\/COD_GOPhaGZ\/media\/?size=t&quot;,&quot;320&quot;:&quot;http:\/\/szilagyivirag.hu\/wp-content\/uploads\/sb-instagram-feed-images\/177539985_453969462374822_7322026811573539414_nlow.jpg&quot;,&quot;640&quot;:&quot;http:\/\/szilagyivirag.hu\/wp-content\/uploads\/sb-instagram-feed-images\/177539985_453969462374822_7322026811573539414_nfull.jpg&quot;}">
+            <span class="sbi-screenreader">“Tök mindegy ki vagy, mit gondolsz magadról
+Eg</span>
+            <svg class="svg-inline--fa fa-clone fa-w-16 sbi_lightbox_carousel_icon" aria-hidden="true" aria-label="Clone" data-fa-proƒcessed="" data-prefix="far" data-icon="clone" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+	                <path fill="currentColor" d="M464 0H144c-26.51 0-48 21.49-48 48v48H48c-26.51 0-48 21.49-48 48v320c0 26.51 21.49 48 48 48h320c26.51 0 48-21.49 48-48v-48h48c26.51 0 48-21.49 48-48V48c0-26.51-21.49-48-48-48zM362 464H54a6 6 0 0 1-6-6V150a6 6 0 0 1 6-6h42v224c0 26.51 21.49 48 48 48h224v42a6 6 0 0 1-6 6zm96-96H150a6 6 0 0 1-6-6V54a6 6 0 0 1 6-6h308a6 6 0 0 1 6 6v308a6 6 0 0 1-6 6z"/>
+	            </svg>	                    <img src="images/placeholder.png" alt="“Tök mindegy ki vagy, mit gondolsz magadról
+Egy nehéz helyzet többet elmond mindarról
+Hogy mit rejt a szíved
+Azt hogy hova húz.
+Látod a lelket is, vagy csak a húst?!
+Látod az értéket, vagy csak a pénzt?!
+Érted az értelmet, vagy csak az észt?!
+
+Nem ismered a jövőt
+Nem láncol le a múlt
+Te vagy az út
+Amit az jár végig veled
+Aki adni sose fél, aki nem hibákat keres
+Önzetlenül, csak szeret
+Pusztán azért mert élsz...
+
+Sok ember jön-megy míg a bőrödben élsz
+És bár mind értékes, de nem mindenki ért
+Aki a lényeddé válik, csak a sír veszi el
+Amíg élsz, amíg vagy beléd ég mint egy jel...” /Kowalsky meg a Vega/
+
+➡️ avagy ahogy megígérte: az első adandó alkalommal elvitt a kedvenc éttermünkbe - dacolva az oltás mellékhatásával és a komoly sportsérülésével, ami miatt járni is alig tud szegénykém. Hát #szerelemez 💕">
+        </a>
+    </div>
+</div><div class="sbi_item sbi_type_image sbi_new sbi_transition" id="sbi_17899112194910744" data-date="1618570288">
+    <div class="sbi_photo_wrap">
+        <a class="sbi_photo" href="https://www.instagram.com/p/CNuWEMmBQeL/" target="_blank" rel="noopener nofollow" data-full-res="https://scontent.cdninstagram.com/v/t51.29350-15/172960200_909600203213609_3748111529029654205_n.jpg?_nc_cat=101&#038;ccb=1-3&#038;_nc_sid=8ae9d6&#038;_nc_ohc=Dygch-G1iYUAX9UXT0X&#038;_nc_ht=scontent.cdninstagram.com&#038;oh=bc8b522bbc4ccb8073677414e195b78e&#038;oe=60AC1ECC" data-img-src-set="{&quot;d&quot;:&quot;https:\/\/scontent.cdninstagram.com\/v\/t51.29350-15\/172960200_909600203213609_3748111529029654205_n.jpg?_nc_cat=101&amp;ccb=1-3&amp;_nc_sid=8ae9d6&amp;_nc_ohc=Dygch-G1iYUAX9UXT0X&amp;_nc_ht=scontent.cdninstagram.com&amp;oh=bc8b522bbc4ccb8073677414e195b78e&amp;oe=60AC1ECC&quot;,&quot;150&quot;:&quot;https:\/\/www.instagram.com\/p\/CNuWEMmBQeL\/media\/?size=t&quot;,&quot;320&quot;:&quot;http:\/\/szilagyivirag.hu\/wp-content\/uploads\/sb-instagram-feed-images\/172960200_909600203213609_3748111529029654205_nlow.jpg&quot;,&quot;640&quot;:&quot;http:\/\/szilagyivirag.hu\/wp-content\/uploads\/sb-instagram-feed-images\/172960200_909600203213609_3748111529029654205_nfull.jpg&quot;}">
+            <span class="sbi-screenreader">𝓜𝓮𝓷𝓳, 𝓼𝓸𝓱𝓪 𝓷𝓮 𝓷é</span>
+            	                    <img src="images/placeholder.png" alt="𝓜𝓮𝓷𝓳, 𝓼𝓸𝓱𝓪 𝓷𝓮 𝓷é𝔃𝔃 𝓿𝓲𝓼𝓼𝔃𝓪...
+
+Ma volt az utolsó nap, hogy reggel melegítőbe öltöztem. 
+Ma volt az utolsó nap, amikor 12:00-re ebédet főztem.
+Ma volt az utolsó nap, hogy egy kicsit tanár is voltam.
+Ma ugyanis véget ért számunkra a digitális oktatás, hétfőtől újra iskolába járhatnak a fiúk.
+Nehéz volt? Könnyű volt? Meg volt a maga szépsége? Igazából mindegy is. Megcsináltuk! Túléltük.
+Imádtam a reggeli összebújásokat, hogy csak 8:30-kor indult a nap. Imádtam, hogy belelátok a tanulási folyamatokba. Imádtam a figyelmet, amit kaptak tőlem. Imádtam, hogy az új szerepekben is remekelni tudtunk. És örülök, hogy vége.
+Örülök, hogy egy kivitelezès sem csúszik miattam több napot, mert hétfőtől minden tervet időben el tudok készíteni.
+Örülök, hogy nem kell naponta 2x elindítanom a mosogató gépet és mosógépet. Örülök hogy megint elég lesz napi 1x főzni vacsorára. 
+Örülök, hogy nem 10 perces munkafázisokban tudok majd dolgozni és akár el tudok menni fodrászhoz is.
+Örülök, hogy vége, mert - bàr azt gondolom remekül lehoztam - ez a háztartásbeli szerep engem nem elégít ki. Kevés. Szívesen csináltam, hiszen most ez volt a fontos, ez volt a dolgom, de megfulladnék benne, ha soha többet nem dolgozhatnék és csak ez maradna. Szeretem ha megvan az egészséges egyensúly. Szeretem, ha a kreativitásomat nem csak a konyhában használhatom. Szeretem, ha az agyam dolgozik. Szeretem ha érvelhetek, meggyőzhetek valakit - és nem otthon, melegítőben, hogy egyék meg a zellerpürét is, hanem magas sarkúban egy tárgyalóasztal mögött. Bár mindkettő én vagyok, szeretem ha ez a két világom párhuzamosan működik.
+Bízom benne hogy hamarosan a világ is helyreáll és nem nézünk vissza, megyünk szépen tovább egyenesen előre. Megleljük a mindennapi örömöket és azzal foglalkozunk, hogy minél jobbra kihozzuk a leosztott lapjainkkal a meccset.
+Hajrá mindenkinek! Aki marad még otthon, annak köszönet és kitartás! 🙏
+*
+*
+*
+#vége #nenézzvissza #instahun #mik #magyarblogger #énvagyok #virágvagyok #visszaavalóságba #szerepek #anyavagyok #nővagyok #feleségvagyok #szakácsnővagyok #tanárvagyok #hellosuli #menjünktovább #jóleszminden">
+        </a>
+    </div>
+</div><div class="sbi_item sbi_type_image sbi_new sbi_transition" id="sbi_17899212439912836" data-date="1618250317">
+    <div class="sbi_photo_wrap">
+        <a class="sbi_photo" href="https://www.instagram.com/p/CNkzxPiBtGX/" target="_blank" rel="noopener nofollow" data-full-res="https://scontent.cdninstagram.com/v/t51.29350-15/173110698_932211570937802_4124411729313309085_n.jpg?_nc_cat=106&#038;ccb=1-3&#038;_nc_sid=8ae9d6&#038;_nc_ohc=UqaILFh4iLAAX_5WETl&#038;_nc_ht=scontent.cdninstagram.com&#038;oh=d71c027dddc4ef6f20b212ce0de05842&#038;oe=60AA8F28" data-img-src-set="{&quot;d&quot;:&quot;https:\/\/scontent.cdninstagram.com\/v\/t51.29350-15\/173110698_932211570937802_4124411729313309085_n.jpg?_nc_cat=106&amp;ccb=1-3&amp;_nc_sid=8ae9d6&amp;_nc_ohc=UqaILFh4iLAAX_5WETl&amp;_nc_ht=scontent.cdninstagram.com&amp;oh=d71c027dddc4ef6f20b212ce0de05842&amp;oe=60AA8F28&quot;,&quot;150&quot;:&quot;https:\/\/www.instagram.com\/p\/CNkzxPiBtGX\/media\/?size=t&quot;,&quot;320&quot;:&quot;http:\/\/szilagyivirag.hu\/wp-content\/uploads\/sb-instagram-feed-images\/173110698_932211570937802_4124411729313309085_nlow.jpg&quot;,&quot;640&quot;:&quot;http:\/\/szilagyivirag.hu\/wp-content\/uploads\/sb-instagram-feed-images\/173110698_932211570937802_4124411729313309085_nfull.jpg&quot;}">
+            <span class="sbi-screenreader">🌺 ANYÁK NAPI NYEREMÉNYJÁTÉK! 🌺
+#reklám
+</span>
+            	                    <img src="images/placeholder.png" alt="🌺 ANYÁK NAPI NYEREMÉNYJÁTÉK! 🌺
+#reklám
+ 
+Tavaly nagyon szerettétek ezt a játékot, ezért idén ismétlünk! 💕
+ 
+Tavaly azt hittük, egyszeri, különleges helyzetben vagyunk tavasszal, amikor se húsvétkor, sem pedig anyák napján nem ölelhettük meg szeretteinket.
+Sajnos idén sem lett más a körülmény, talán még nagyobb a felelősségünk, hogy hogyan és kivel találkozunk. Sokan jobban félnek, jobban vigyáznak. Sokan nem tudnak élő virággal, csilingelő unoka énekszóval menni a nagymamához. 
+Tavaly az én anyukám kapott ilyet, és nagyon szereti, ezért idén a másik nagymamát is családi vászonképpel lepjük majd meg.
+A @printapicdesign applikációján keresztül egyébként kb. 1 perc alatt lehet leadni a rendelést és két nap múlva már viszi is a futàr. 
+🙏Vigyázzunk egymásra!❤️  
+Szeretem azokat az együttműködéseket, ahol nektek is tudok kedvezni éééés ez most ilyen!
+Ti is nyerhettek egy csodálatos vászonképet 50x70 cm-es méretben, ha játszotok ebben a posztban.
+ 
+* Mindössze annyi a dolgotok, hogy like után egy virág emojit kommenteltek ide és követitek a @printapicdesign oldalát is.
+* Sorsolás április 18-án!
+ 
+#Printapicapp #Printapicdesign #Anyáknapja #Vászonkép
+ 
+Ez a nyereményjáték nem az Instagram által szervezett, illetve nem az Instagram által szponzorált.
+ 
+https://storage.cloud.google.com/printapic-docs/PP_NYEREMENYJATEKOK_INSTA/adatkezelesi_nyeremenyjatek_20200928.pdf">
+        </a>
+    </div>
+</div><div class="sbi_item sbi_type_image sbi_new sbi_transition" id="sbi_17918251657626326" data-date="1617861529">
+    <div class="sbi_photo_wrap">
+        <a class="sbi_photo" href="https://www.instagram.com/p/CNZONvrBKc3/" target="_blank" rel="noopener nofollow" data-full-res="https://scontent.cdninstagram.com/v/t51.29350-15/169516448_538960203741967_4704189445824370727_n.jpg?_nc_cat=107&#038;ccb=1-3&#038;_nc_sid=8ae9d6&#038;_nc_ohc=lEzRq843G-IAX_P9ffC&#038;_nc_oc=AQksQN897Rnr7IvLcnR-rw8tpt-W6Nl9HTXhKv4e_1_uAITb0iC-_IICUAylleecdOw&#038;_nc_ht=scontent.cdninstagram.com&#038;oh=1fcc0cfdcd6dd41ed039bf0a954c3b19&#038;oe=60AC6104" data-img-src-set="{&quot;d&quot;:&quot;https:\/\/scontent.cdninstagram.com\/v\/t51.29350-15\/169516448_538960203741967_4704189445824370727_n.jpg?_nc_cat=107&amp;ccb=1-3&amp;_nc_sid=8ae9d6&amp;_nc_ohc=lEzRq843G-IAX_P9ffC&amp;_nc_oc=AQksQN897Rnr7IvLcnR-rw8tpt-W6Nl9HTXhKv4e_1_uAITb0iC-_IICUAylleecdOw&amp;_nc_ht=scontent.cdninstagram.com&amp;oh=1fcc0cfdcd6dd41ed039bf0a954c3b19&amp;oe=60AC6104&quot;,&quot;150&quot;:&quot;https:\/\/www.instagram.com\/p\/CNZONvrBKc3\/media\/?size=t&quot;,&quot;320&quot;:&quot;http:\/\/szilagyivirag.hu\/wp-content\/uploads\/sb-instagram-feed-images\/169516448_538960203741967_4704189445824370727_nlow.jpg&quot;,&quot;640&quot;:&quot;http:\/\/szilagyivirag.hu\/wp-content\/uploads\/sb-instagram-feed-images\/169516448_538960203741967_4704189445824370727_nfull.jpg&quot;}">
+            <span class="sbi-screenreader">Ha ér az áprilisi hóesés, akkor ér hidegben f</span>
+            	                    <img src="images/placeholder.png" alt="Ha ér az áprilisi hóesés, akkor ér hidegben fürdőruhás képet is posztolni. Én így sztrájkolok! 
+Ugyanis kiültettem már a kis fűszernövényeimet, kimosva, frissen felhúztam a kinti pàrnàkat és megcsináltam a teraszt egy hete amikor jó meleg volt...
+Téli ruhák, cipők már a szekrény mélyén és eszembe sincs elővenni őket újra 🙈
+Bár most divat ugye bikiniben síelni... úgyhogy végülis helytálló ez a kép, mivel síelni nem tudok, marad ez a snassz verzió 😂
+Nyár, gyere már! 🙏
+*
+*
+*
+#takemeback #helloaprilis #miez2021 #megjöttahóesés #envagyok #virágvagyok #nyaratvárok #beachlife #summervibes #sunshine #happiness #holiday 
+És akkor most leülök az online oktatáshoz a gèp elé miközben nézem az ablakban a szakadó hóesést.
+#dreamvsreality">
+        </a>
+    </div>
+</div><div class="sbi_item sbi_type_image sbi_new sbi_transition" id="sbi_17912827660721678" data-date="1617219398">
+    <div class="sbi_photo_wrap">
+        <a class="sbi_photo" href="https://www.instagram.com/p/CNGFcochg6g/" target="_blank" rel="noopener nofollow" data-full-res="https://scontent.cdninstagram.com/v/t51.29350-15/166441637_447378933011075_222615222011750600_n.jpg?_nc_cat=105&#038;ccb=1-3&#038;_nc_sid=8ae9d6&#038;_nc_ohc=58rFXGMTZ4YAX-DhW9-&#038;_nc_ht=scontent.cdninstagram.com&#038;oh=e6171ae56af117003bca6ebefc28d4bb&#038;oe=60AA1798" data-img-src-set="{&quot;d&quot;:&quot;https:\/\/scontent.cdninstagram.com\/v\/t51.29350-15\/166441637_447378933011075_222615222011750600_n.jpg?_nc_cat=105&amp;ccb=1-3&amp;_nc_sid=8ae9d6&amp;_nc_ohc=58rFXGMTZ4YAX-DhW9-&amp;_nc_ht=scontent.cdninstagram.com&amp;oh=e6171ae56af117003bca6ebefc28d4bb&amp;oe=60AA1798&quot;,&quot;150&quot;:&quot;https:\/\/www.instagram.com\/p\/CNGFcochg6g\/media\/?size=t&quot;,&quot;320&quot;:&quot;http:\/\/szilagyivirag.hu\/wp-content\/uploads\/sb-instagram-feed-images\/166441637_447378933011075_222615222011750600_nlow.jpg&quot;,&quot;640&quot;:&quot;http:\/\/szilagyivirag.hu\/wp-content\/uploads\/sb-instagram-feed-images\/166441637_447378933011075_222615222011750600_nfull.jpg&quot;}">
+            <span class="sbi-screenreader">Olyan sok a szomorúság mostanság a világban, a</span>
+            	                    <img src="images/placeholder.png" alt="Olyan sok a szomorúság mostanság a világban, az emberek szemében. Mindenkinek nehéz, mindenkinek elege van. 
+Vajon ér-e mégis boldogságról posztolni ebben az időszakban? Vajon bevallhatom-e, hogy megoldjuk ezt is, hogy tudom pozitívan szemlélni a helyzetet? Elmondhatom-e hogy egyszerűen átkattintottam valamit a fejemben és ugyanolyan lazán nyomom a mindennapokat, mint egy normális időszakban? Vajon erőt adok ezekkel vagy inkább frusztráltságot okozok?
+Vajon attól, hogy iszonyatosan várom a következő wellness hétvégét, egy áttáncolt éjszakát, hajnali részegséget egy kiadós buli után vagy őrjöngést egy koncerten, attól még ér-e kicsit élvezni a jelenlegi szerepemet? Ér-e arról beszélni, hogy a jelenlegi lehetőségekből hogy hozzuk ki a maximumot mind anyagilag, mind érzelmileg, mind családilag, vagy munka szempontból? Ér-e találni valami jót a sötétségben és annak örülni? Mármint nyilván ér, de ér-e ezt megosztani? Tud-e adni, vagy csak jobban eltaszít? Van-e felelősségem ezen a szinten? Írhatom-e én még mindig a szabályokat? 
+Mit gondoltok? Mit lehet vagy mit érdemes?
+*
+*
+*
+#jónekem #pozitivan #hàla #envagyok #viràgvagyok #anyavagyok #ikresanyavagyok #néhakivagyok #aztánmegoldom #ésmegintjónekem">
+        </a>
+    </div>
+</div><div class="sbi_item sbi_type_image sbi_new sbi_transition" id="sbi_18136811956163657" data-date="1616742481">
+    <div class="sbi_photo_wrap">
+        <a class="sbi_photo" href="https://www.instagram.com/p/CM33zOVBj97/" target="_blank" rel="noopener nofollow" data-full-res="https://scontent.cdninstagram.com/v/t51.29350-15/164164579_2897912723812761_3351094388241609100_n.jpg?_nc_cat=110&#038;ccb=1-3&#038;_nc_sid=8ae9d6&#038;_nc_ohc=-RcXyauMer4AX9N-UxB&#038;_nc_ht=scontent.cdninstagram.com&#038;oh=9d9132e6c838cd738bb0c58c6b31e57c&#038;oe=60ABE618" data-img-src-set="{&quot;d&quot;:&quot;https:\/\/scontent.cdninstagram.com\/v\/t51.29350-15\/164164579_2897912723812761_3351094388241609100_n.jpg?_nc_cat=110&amp;ccb=1-3&amp;_nc_sid=8ae9d6&amp;_nc_ohc=-RcXyauMer4AX9N-UxB&amp;_nc_ht=scontent.cdninstagram.com&amp;oh=9d9132e6c838cd738bb0c58c6b31e57c&amp;oe=60ABE618&quot;,&quot;150&quot;:&quot;https:\/\/www.instagram.com\/p\/CM33zOVBj97\/media\/?size=t&quot;,&quot;320&quot;:&quot;http:\/\/szilagyivirag.hu\/wp-content\/uploads\/sb-instagram-feed-images\/164164579_2897912723812761_3351094388241609100_nlow.jpg&quot;,&quot;640&quot;:&quot;http:\/\/szilagyivirag.hu\/wp-content\/uploads\/sb-instagram-feed-images\/164164579_2897912723812761_3351094388241609100_nfull.jpg&quot;}">
+            <span class="sbi-screenreader">Hello péntek!
+Hello reggeli móka az ágyban roha</span>
+            	                    <img src="images/placeholder.png" alt="Hello péntek!
+Hello reggeli móka az ágyban rohanós készülődés helyett 😍
+Ezt a részét mondjuk imádom ennek az időszaknak: 6:10 helyett 7:20-kor csörög az órám. Tudunk együtt reggelizni ès ebédelni is. Sokat ülnek az ölemben még napközben amikor tanulunk, belelátok a fejlődésükbe. Figyelünk egymásra. Ők is rám, ha délután nekem van online órám. 
+Szimbiózis van, amit eddig csak a hosszú szünetekben tapasztaltam. Simán vesszük a helyzet okozta kihívásokat, rengeteget tanulunk ebből, én egyre lazább és türelmesebb vagyok, ami nálam nagy dolog. Alkalmazkodunk, másféle napirend van, megoldunk mindent. Együtt.
+Nagyrészt így élem meg... aztán van az a pont, amikor végre leülnék dolgozni, miközben fő az ebéd és dudál a futár is de valami pont akkor kell nekik... 2 percenként: “Anya elment a net!”, “Anya kell egy másik grafit!”, “Anya hol a füzetem?”, Anya kell egy sima papír is!”, “Anya nem hallok semmit!”, “Anya, Miss Catherine eltűnt!”, “Anya át kell váltani a NearPod-ra!”, “Anya elmehetek pisilni?”, “Anya ki mehetek inkább focizni, mert ez uncsi?”, “Anya végeeee!”
+És amikor meghallom, hogy ez még minimum 2 hétig így lesz a szünet után: simán beleöntöm a rumot a délutáni kávémba. 
+Hát hello hétvége! Egy újabb hét eltelt és még mindig jó kedvünk van 🥰
+*
+*
+*
+#momlife #twinslife #homelife #anyavagyok #ikresanyavagyok #virágvagyok #mik #instahun #hungarianblogger #péntek #homeschool #mindenis">
+        </a>
+    </div>
+</div><div class="sbi_item sbi_type_image sbi_new sbi_transition" id="sbi_17948298868421761" data-date="1616507256">
+    <div class="sbi_photo_wrap">
+        <a class="sbi_photo" href="https://www.instagram.com/p/CMw3JOohPXF/" target="_blank" rel="noopener nofollow" data-full-res="https://scontent.cdninstagram.com/v/t51.29350-15/163655250_203388951554666_4344069899584043089_n.jpg?_nc_cat=110&#038;ccb=1-3&#038;_nc_sid=8ae9d6&#038;_nc_ohc=20Xw8I7tOXEAX-Ep3VF&#038;_nc_ht=scontent.cdninstagram.com&#038;oh=be500464c92a9fb2e85f17d38056d832&#038;oe=60ABEC09" data-img-src-set="{&quot;d&quot;:&quot;https:\/\/scontent.cdninstagram.com\/v\/t51.29350-15\/163655250_203388951554666_4344069899584043089_n.jpg?_nc_cat=110&amp;ccb=1-3&amp;_nc_sid=8ae9d6&amp;_nc_ohc=20Xw8I7tOXEAX-Ep3VF&amp;_nc_ht=scontent.cdninstagram.com&amp;oh=be500464c92a9fb2e85f17d38056d832&amp;oe=60ABEC09&quot;,&quot;150&quot;:&quot;https:\/\/www.instagram.com\/p\/CMw3JOohPXF\/media\/?size=t&quot;,&quot;320&quot;:&quot;http:\/\/szilagyivirag.hu\/wp-content\/uploads\/sb-instagram-feed-images\/163655250_203388951554666_4344069899584043089_nlow.jpg&quot;,&quot;640&quot;:&quot;http:\/\/szilagyivirag.hu\/wp-content\/uploads\/sb-instagram-feed-images\/163655250_203388951554666_4344069899584043089_nfull.jpg&quot;}">
+            <span class="sbi-screenreader">Akartam még egy gyereket...
+A gyerekeim akartak e</span>
+            	                    <img src="images/placeholder.png" alt="Akartam még egy gyereket...
+A gyerekeim akartak egy kutyát... vagy egy törpe szamarat...
+Így lett Benő 🤷🏻‍♀️
+Hát ezzel speciel pont át****tak 😂
+De azért maradhat 🥰🦎🦕
+*
+*
+*
+#benőakaméleon #kaméleon #háziállat #csendes #nyugodt #ígynemillikacsaládba #demajdmegszokja #virágvagyok #énvagyok #mik #instahun #hungarianblogger #magyarblogger #anyavagyok #karantènkorszak #nemunatkozunk">
+        </a>
+    </div>
+</div><div class="sbi_item sbi_type_image sbi_new sbi_transition" id="sbi_17925076471529985" data-date="1616249961">
+    <div class="sbi_photo_wrap">
+        <a class="sbi_photo" href="https://www.instagram.com/p/CMpMZHKB_GL/" target="_blank" rel="noopener nofollow" data-full-res="https://scontent.cdninstagram.com/v/t51.29350-15/162183875_926666591468451_7246357156360921196_n.jpg?_nc_cat=102&#038;ccb=1-3&#038;_nc_sid=8ae9d6&#038;_nc_ohc=yU93Dk_OMoYAX8BeATl&#038;_nc_ht=scontent.cdninstagram.com&#038;oh=4b3094442a9b1ae4bd741ed4a2938364&#038;oe=60AD32D8" data-img-src-set="{&quot;d&quot;:&quot;https:\/\/scontent.cdninstagram.com\/v\/t51.29350-15\/162183875_926666591468451_7246357156360921196_n.jpg?_nc_cat=102&amp;ccb=1-3&amp;_nc_sid=8ae9d6&amp;_nc_ohc=yU93Dk_OMoYAX8BeATl&amp;_nc_ht=scontent.cdninstagram.com&amp;oh=4b3094442a9b1ae4bd741ed4a2938364&amp;oe=60AD32D8&quot;,&quot;150&quot;:&quot;https:\/\/www.instagram.com\/p\/CMpMZHKB_GL\/media\/?size=t&quot;,&quot;320&quot;:&quot;http:\/\/szilagyivirag.hu\/wp-content\/uploads\/sb-instagram-feed-images\/162183875_926666591468451_7246357156360921196_nlow.jpg&quot;,&quot;640&quot;:&quot;http:\/\/szilagyivirag.hu\/wp-content\/uploads\/sb-instagram-feed-images\/162183875_926666591468451_7246357156360921196_nfull.jpg&quot;}">
+            <span class="sbi-screenreader">Hát akkor Boldog Karácsonyt mindenkinek! Karács</span>
+            	                    <img src="images/placeholder.png" alt="Hát akkor Boldog Karácsonyt mindenkinek! Karácsonykor úgysem posztoltam, most meg hogy ilyen szép hóesés van, megjött a kedvem az ünnepi hangulathoz 😂
+Pontosan egy évvel ezelőtt màrcius 20-án 30 fok volt, szoknyában és ujjatlanban indultam el otthonról. Tisztán emlékszem. Imádtam azt a napot. Aztán 3 nappal később elővettem a hótaposót, ugyanúgy havazott, mint most. Szeszélyes korszak volt az... nem tudtuk mit hoz a holnap. Most azért látni a fényt az alagút végén. Szóval Boldog Kartit! Legyetek szeretetben most is, figyeljetek egymásra, beszéljetek szèpen a másikkal, legyetek kedvesek! Legyen a szívünkben karácsony! 🥰💕🎄
+*
+*
+*
+#március #karácsony #family #kiscsalàdom #twins #mi">
+        </a>
+    </div>
+</div>    </div>
+
+	<div id="sbi_load">
+
+	
+	
+</div>
+	    <span class="sbi_resized_image_data" data-feed-id="sbi_szilagyivirag_#8" data-resized="{&quot;17918251657626326&quot;:{&quot;id&quot;:&quot;169516448_538960203741967_4704189445824370727_n&quot;,&quot;ratio&quot;:&quot;1.00&quot;,&quot;sizes&quot;:{&quot;full&quot;:640,&quot;low&quot;:320}},&quot;17912827660721678&quot;:{&quot;id&quot;:&quot;166441637_447378933011075_222615222011750600_n&quot;,&quot;ratio&quot;:&quot;1.00&quot;,&quot;sizes&quot;:{&quot;full&quot;:640,&quot;low&quot;:320}},&quot;18136811956163657&quot;:{&quot;id&quot;:&quot;164164579_2897912723812761_3351094388241609100_n&quot;,&quot;ratio&quot;:&quot;1.00&quot;,&quot;sizes&quot;:{&quot;full&quot;:640,&quot;low&quot;:320}},&quot;17948298868421761&quot;:{&quot;id&quot;:&quot;163655250_203388951554666_4344069899584043089_n&quot;,&quot;ratio&quot;:&quot;1.00&quot;,&quot;sizes&quot;:{&quot;full&quot;:640,&quot;low&quot;:320}},&quot;17925076471529985&quot;:{&quot;id&quot;:&quot;162183875_926666591468451_7246357156360921196_n&quot;,&quot;ratio&quot;:&quot;1.00&quot;,&quot;sizes&quot;:{&quot;full&quot;:640,&quot;low&quot;:320}},&quot;17899212439912836&quot;:{&quot;id&quot;:&quot;173110698_932211570937802_4124411729313309085_n&quot;,&quot;ratio&quot;:&quot;1.00&quot;,&quot;sizes&quot;:{&quot;full&quot;:640,&quot;low&quot;:320}},&quot;17899112194910744&quot;:{&quot;id&quot;:&quot;172960200_909600203213609_3748111529029654205_n&quot;,&quot;ratio&quot;:&quot;1.00&quot;,&quot;sizes&quot;:{&quot;full&quot;:640,&quot;low&quot;:320}},&quot;17892801836061215&quot;:{&quot;id&quot;:&quot;177539985_453969462374822_7322026811573539414_n&quot;,&quot;ratio&quot;:&quot;1.00&quot;,&quot;sizes&quot;:{&quot;full&quot;:640,&quot;low&quot;:320}}}">
+	</span>
+	</div>
+
+</div>
+		</aside></div>	<!-- /.content_wrap -->					</div>	<!-- /.footer_wrap_inner -->
+				</footer>	<!-- /.footer_wrap -->
+			 
+			<div class="copyright_wrap">
+				<div class="copyright_wrap_inner">
+					<div class="content_wrap">
+						<div class="socials_area">
+														<div class="socials_wrap"><span class="social_item"><a href="https://www.facebook.com/szilagyivirag.hu/" target="_blank" class="social_icons social_facebook"><span class="icon-facebook">facebook</span></a></span><span class="social_item"><a href="https://www.instagram.com/szilagyivirag.hu/" target="_blank" class="social_icons social_instagram"><span class="icon-instagram">instagram</span></a></span></div>
+													</div>
+						<div class="copyright_text">HANDMADE &copy; 2015. All rights reserved.<br>
+Terms of use and Privacy Policy</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>	<!-- /.page_wrap -->
+
+	</div>		<!-- /.body_wrap -->
+	
+	<a href="#" class="scroll_to_top icon-up" title="Scroll to top"></a>
+
+	<!-- Instagram Feed JS -->
+<script type="text/javascript">
+var sbiajaxurl = "http://szilagyivirag.hu/wp-admin/admin-ajax.php";
+</script>
+<script type="text/javascript">if (typeof MARIANA_HANDMADE_STORAGE == 'undefined') var MARIANA_HANDMADE_STORAGE = {};jQuery(document).ready(function() {MARIANA_HANDMADE_STORAGE['ajax_url']				= 'http://szilagyivirag.hu/wp-admin/admin-ajax.php';MARIANA_HANDMADE_STORAGE['ajax_nonce']			= 'be48bc3a2d';MARIANA_HANDMADE_STORAGE['site_url']				= 'http://szilagyivirag.hu';MARIANA_HANDMADE_STORAGE['user_logged_in']		= false;MARIANA_HANDMADE_STORAGE['menu_mode_relayout_width']		= 0;MARIANA_HANDMADE_STORAGE['menu_mode_responsive_width']	= 960;MARIANA_HANDMADE_STORAGE['menu_animation_in']			= 'none';MARIANA_HANDMADE_STORAGE['menu_animation_out']			= 'none';MARIANA_HANDMADE_STORAGE['popup_engine']			= 'magnific';MARIANA_HANDMADE_STORAGE['use_mediaelements']	= true;MARIANA_HANDMADE_STORAGE['message_maxlength']	= 1000;MARIANA_HANDMADE_STORAGE['admin_mode']			= false;MARIANA_HANDMADE_STORAGE['email_mask']			= '^([a-zA-Z0-9_\-]+\.)*[a-zA-Z0-9_\-]+@[a-z0-9_\-]+(\.[a-z0-9_\-]+)*\.[a-z]{2,6}$';MARIANA_HANDMADE_STORAGE['strings']				= {
+									'ajax_error':			'Invalid server answer!',
+									'magnific_loading':		'Loading image',
+									'magnific_error':		'Error loading image',
+									'error_like':			'Error saving your like! Please, try again later.',
+									'error_global':			'Error data validation!',
+									'name_empty':			'The name can&#039;t be empty',
+									'name_long':			'Too long name',
+									'email_empty':			'Too short (or empty) email address',
+									'email_long':			'Too long email address',
+									'email_not_valid':		'Invalid email address',
+									'text_empty':			'The message text can&#039;t be empty',
+									'text_long':			'Too long message text',
+									'search_error':			'Search error! Try again later.',
+									'send_complete':		'Send message complete!',
+									'send_error':			'Transmit failed!'
+			};});</script><script type="text/javascript" src="js/jquery.blockUI.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/2016\/05\/22\/30-napi-recept\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/woocommerce.min.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/2016\/05\/22\/30-napi-recept\/?wc-ajax=%%endpoint%%","fragment_name":"wc_fragments"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/cart-fragments.min.js"></script>
+<script type="text/javascript" src="js/superfish.min.js"></script>
+<script type="text/javascript" src="js/_utils.js"></script>
+<script type="text/javascript" src="js/_init.js"></script>
+<script type="text/javascript" src="js/comment-reply.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var mejsL10n = {"language":"hu-HU","strings":{"Close":"Bez\u00e1r\u00e1s","Fullscreen":"Teljes k\u00e9perny\u0151","Download File":"F\u00e1jl let\u00f6lt\u00e9se","Download Video":"Vide\u00f3 let\u00f6lt\u00e9se","Play\/Pause":"Lej\u00e1tsz\u00e1s\/Sz\u00fcnet","Mute Toggle":"N\u00e9m\u00edt\u00e1s","None":"Egyik sem","Turn off Fullscreen":"Teljes k\u00e9perny\u0151 kikapcsol\u00e1sa","Go Fullscreen":"Teljes k\u00e9perny\u0151 bekapcsol\u00e1sa","Unmute":"N\u00e9m\u00edt\u00e1s felold\u00e1sa","Mute":"N\u00e9m\u00edt\u00e1s","Captions\/Subtitles":"K\u00e9pal\u00e1\u00edr\u00e1s\/Felirat"}};
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/mediaelement-and-player.min.js"></script>
+<script type="text/javascript" src="js/wp-mediaelement.js"></script>
+<script type="text/javascript" src="js/skip-link-focus-fix.js"></script>
+<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="js/wp-embed.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var sb_instagram_js_options = {"font_method":"svg","resized_url":"http:\/\/szilagyivirag.hu\/wp-content\/uploads\/sb-instagram-feed-images\/","placeholder":"http:\/\/szilagyivirag.hu\/wp-content\/plugins\/instagram-feed\/img\/placeholder.png"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/sb-instagram-2-2.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var gglcptch_pre = {"messages":{"in_progress":"Please wait until Google reCAPTCHA is loaded.","timeout":"Failed to load Google reCAPTCHA. Please check your internet connection and reload this page."}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/pre-api-script.js"></script>
+<script type="text/javascript" data-cfasync="false" async="async" defer="defer" src="js/api.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var gglcptch = {"options":{"version":"v2","sitekey":"6LfHGCUUAAAAAIUgy5LpVUXBzd3b3-7F3kyTwXwu","theme":"light","error":"<strong>Warning<\/strong>:&nbsp;More than one reCAPTCHA has been found in the current form. Please remove all unnecessary reCAPTCHA fields to make it work properly."},"vars":{"ajaxurl":"http:\/\/szilagyivirag.hu\/wp-admin\/admin-ajax.php","error_msg":"Error:&nbsp;You have entered an incorrect reCAPTCHA value.","nonce":"0c9f29a110","visibility":false,"excluded_forms":""}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
